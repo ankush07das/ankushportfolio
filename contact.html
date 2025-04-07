@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">Ankush</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="project.html">My Projects</a>
+            <a href="resume.html">Resume</a>
+            <a href="" class="active">Contact</a>
+        </nav>
+    </header>
+    <section class="contact-active">
+        <div class="contact-container">
+
+            <!-- Left Contact Info Box -->
+            <div class="contact-box">
+                <h2><span>Let's</span> Work <span>Together</span></h2>
+                <p class="desc">
+                    Let's build something great together! Whether you're looking for someone to bring your tech ideas to life, collaborate on exciting projects, or need a reliable team player with a strong work ethic—I’m just a message away. I’m always open to opportunities,
+                    freelance gigs, internships, or just a good tech chat. Let’s connect and create something impactful!
+                </p>
+
+                <div class="contact-detail">
+                    <i class='bx bxs-phone-call'></i>
+                    <div class="detail">
+                        <p>Phone </p>
+                        <p>(+91) 9748133424</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <i class='bx bxl-gmail'></i>
+                    <div class="detail">
+                        <p>Email </p>
+                        <p>ankushdasofficial07@gmail.com</p>
+                        <!-- Visible email -->
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <i class='bx bxs-home'></i>
+                    <div class="detail">
+                        <p>Address </p>
+                        <p>64/C Natun Pukur Road, Satin Sen Pally, Barasat, Kolkata, West Bengal, Pincode - 700124</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Contact Form Box -->
+            <div class="contact-box">
+                <!-- Updated with Formspree endpoint and redirect -->
+                <form action="https://formspree.io/f/xblgpgkr" method="POST" data-formspree-redirect="thanks.html">
+                    <h2 class="heading">Contact <span>Me</span></h2>
+
+                    <div class="field-box">
+                        <input type="text" name="full_name" placeholder="Full Name" required>
+                    </div>
+
+                    <div class="field-box">
+                        <input type="email" name="email" placeholder="Email Address" required>
+                    </div>
+
+                    <div class="field-box">
+                        <input type="text" name="phone_number" placeholder="Phone Number" required>
+                    </div>
+
+                    <div class="field-box">
+                        <input type="text" name="subject" placeholder="Email Subject" required>
+                    </div>
+
+                    <div class="field-box">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Send Message to ME</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
